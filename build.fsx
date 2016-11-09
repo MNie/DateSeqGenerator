@@ -24,7 +24,7 @@ Target "RunTests" (fun _ ->
     !! testAssemblies
     |> xUnit2 (fun p ->
             {p with
-                ToolPath = "/home/travis/build/MNie/DateSeqGenerator/xunit.runner.console.2.1.0/tools/xunit.console.exe"
+                ToolPath = "/home/travis/build/MNie/DateSeqGenerator/xunit.runner.console*/tools/xunit.console.exe"
                 NoAppDomain = isMono
                 ShadowCopy = false })
 )

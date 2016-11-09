@@ -7,6 +7,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DateSeqGenerator", "src\Dat
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DateSeqGenerator.Tests", "test\DateSeqGenerator.Tests\DateSeqGenerator.Tests.fsproj", "{D64F0061-4E91-4322-AB73-2A266711738F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{01D5EBE6-DCA0-46FA-9B97-5DFDEA1167EB}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		build.fsx = build.fsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

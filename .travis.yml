@@ -2,7 +2,7 @@ language: csharp
 solution: DateSeqGenerator.sln
 install:
   - nuget restore DateSeqGenerator.sln
-  - nuget install FAKE -version 4.45.1
-  - nuget install xunit.runner.console -version 2.1.0
+  - nuget install FAKE
+  - nuget install xunit.runner.console
 script:
-  - mono /home/travis/build/MNie/DateSeqGenerator/FAKE.4.45.1/tools/FAKE.exe build.fsx 
+  - mono /home/travis/build/MNie/DateSeqGenerator/FAKE*/tools/FAKE.exe build.fsx 
