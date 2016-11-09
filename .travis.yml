@@ -3,6 +3,6 @@ solution: DateSeqGenerator.sln
 install:
   - nuget restore DateSeqGenerator.sln
   - nuget install FAKE
-  - nuget install xunit.runner.console
+  - nuget install xunit.runner.console -version 2.1.0
 script:
   - mono /home/travis/build/MNie/DateSeqGenerator/FAKE*/tools/FAKE.exe build.fsx 
